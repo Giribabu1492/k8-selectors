@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: tolerations
   labels:
-    purpose: "tolerations-demo"
+    purpose: "toleration-demo"
 spec:
   nodeSelector:
     topology.kubernetes.io/zone: us-east-1b
